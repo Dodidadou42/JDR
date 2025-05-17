@@ -1,0 +1,52 @@
+# === Java / Spring Boot ===
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+*.log
+*.class
+*.jar
+*.war
+*.iml
+*.swp
+
+# === Maven ===
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+
+# === VS Code ===
+.vscode/
+
+# === Angular ===
+/frontend/node_modules/
+frontend/dist/
+frontend/.angular/cache/
+frontend/.env
+frontend/package-lock.json
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+*.pid
+*.env
+docker-compose.override.yml
+.dockerignore
+
+# === PostgreSQL ===
+pgdata/
+*.sql
+*.dump
